@@ -1,20 +1,41 @@
-# Savie Catering
+Task:
+Move and organize the current Next.js project into the following directory:
+C:\Users\USER\Videos\final project
 
-This is a NextJS starter for Savie Catering.
+Instructions:
 
-To get started, take a look at src/app/page.tsx.
+Use this directory as the project root
 
-## Supabase Setup
+Ensure all source files are present (src, public, configs, package.json)
 
-1. Create a Supabase account at https://supabase.com/
-2. Create a new project
-3. Get your Supabase URL and Anon Key from the project settings
-4. Add them to the .env file:
-   ```
-   NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
-   ```
-5. Run the development server:
-   ```bash
-   npm run dev
-   ```
+Do NOT include:
+
+node_modules
+
+.next
+
+build artifacts
+
+.env files
+
+Ensure .gitignore correctly excludes:
+
+node_modules
+
+.next
+
+.env*
+
+cache files
+
+Preserve the existing project structure
+
+Do not modify application code
+
+Do not install dependencies
+
+Do not run builds
+
+Outcome required:
+A clean, deployment-ready Next.js project located at
+C:\Users\USER\Videos\final project
